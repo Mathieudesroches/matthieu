@@ -20,13 +20,13 @@
         </div>
         {.end}
       </div>
-      <h1 data-content-field="title" class="entry-title entry-title-list p-name">
+      <p data-content-field="title" class="entry-title entry-title-list p-name">
       {.passthrough?}
         <a href="{sourceUrl}" class="entry-title-passthrough" target="_blank">{title}</a>
       {.or}
         <a href="{fullUrl}" class="u-url" rel="bookmark">{title}</a>
       {.end}
-      </h1>
+      </p>
       <div class="meta-below-title">
         {.section author}
         <div class="entry-dateline">
